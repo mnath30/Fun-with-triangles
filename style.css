@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+:root{
+    --primary-orange:#e85d04;
+    --primary-light-orange:#f48c06;
+    --light-yellow:#faa307;
+    --black:#000000;
+}
+
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Courgette', cursive, 'Serif';  
+
+}
+.header{
+    background-color: var(--light-yellow);
+    padding:1rem 3rem 3rem 3rem;
+    margin-bottom: 3rem;
+    max-height: fit-content;
+
+    
+}
+.main{
+    text-align: center;
+    width:60%;
+    margin:auto;
+    font-size:larger;
+    min-height: 70vh;
+    
+}
+
+a{
+    text-decoration:none;
+    color:var(--black);
+}
+a:hover{
+    font-weight: bolder;
+}
+.active{
+    font-weight: bolder;
+}
+.nav-item{
+    text-align: right;
+}
+li{
+    text-decoration:none;
+    display:inline;
+    padding:0.2rem;
+    margin:0.5rem;
+    font-size: 1.4rem;
+    
+}
+
+.inputbox{
+    display:block;
+    margin:0.5rem;
+    width:100%;
+    font-size:larger;
+}
+
+.btn{
+    font-size:larger;
+    padding:0.2rem;
+    margin:0.5rem;
+    border-radius: 0.2rem;
+    border:2px solid var(--primary-orange);
+    background-color: var(--primary-light-orange);
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: var(--primary-orange);
+    
+}
+.question{
+    margin:2rem;
+    padding:1rem;
+}
+.result{
+    font-size:1.8rem;
+    margin:0.5rem;
+    padding:0.2rem;
+
+}
+.formula{
+    font-size:1.4rem ;
+    border:2px solid var(--primary-orange);
+    padding:0.2rem;
+    margin:0.5rem;
+}
+footer{
+    background-color: var(--light-yellow);
+    padding:2rem 0 3rem 0;
+    height:3rem;
+    text-align: center;
+}
+p{
+    font-size: 1.5rem;
+}
+.social-icon{
+    font-size: 2.5rem;
+}

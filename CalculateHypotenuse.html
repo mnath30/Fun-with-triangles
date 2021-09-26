@@ -6,33 +6,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Triangles and You</title>
-    <link rel="stylesheet" type="text\css" href="style.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
     <div class="header">
         <h1>Fun with Triangles</h1>
-        <nav>
+        <nav><ul class="nav-item"> 
             <li><a href="index.html">Is Triangle?</a></li>
             <li><a href="Quiz.html">Quiz</a></li>
-            <li><a href="#">Hypotenuse</a></li>
+            <li><a href="#" class="active">Hypotenuse</a></li>
             <li><a href="CalculateArea.html">Area of Triangle</a></li>
+            </ul>
         </nav>
     </div>
 
-    <div class="body">
+    <div class="main">
+        <h2>Calculate the Hypotenuse</h2>
         <label for="base">Enter Base value
             <input type="number" class="hypotenuseinput inputbox" placeholder="Enter Base">
         </label>
         <label for="height">Enter Height value
             <input type="number" class="hypotenuseinput inputbox" placeholder="Enter Height">
         </label>
-        <button id="btn-hypotenuse">Calculate Hypotenuse</button>
+        <button id="btn-hypotenuse" class="btn">Calculate Hypotenuse</button>
         <div id="result-hypotenuse" class="result">See the Result</div>
-        <div>
-            <i>Hypotenuse of triangle is calculated by using the formula: √((Base)² + (Height)²)</i>
+        <div class="formula">
+            Hypotenuse of triangle is calculated by using the formula: √((Base)² + (Height)²)
         </div>
     </div>
+    <footer>
+        <p>&copy; Maitreyee Nath</p>
+        <ul>
+            <li class="social-icon"><a href="https://twitter.com/maitreyee__nath" target="__blank"><i class="fa fa-twitter"></i></a></li>
+            <li class="social-icon"><a href="https://github.com/mnath30" target="__blank"><i class="fa fa-github"></i></a></li>
+            <li class="social-icon"><a href="https://www.linkedin.com/in/maitreyee-nath-211096127?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BZcCecq5VS%2BKX4%2FTk0FLFKw%3D%3D" target="__blank"><i class="fa fa-linkedin"></i></a></li>
+        </ul>
+    </footer>
     <script src="./hypotenuse.js"></script>
 
 </body>

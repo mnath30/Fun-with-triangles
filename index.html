@@ -5,31 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Triangles and You</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <div class="header">
         <h1>Fun with Triangles</h1>
         <nav>
-            <li><a href="#">Is Triangle?</a></li>
-            <li><a href="Quiz.html">Quiz</a></li>
-            <li><a href="CalculateHypotenuse.html">Hypotenuse</a></li>
-            <li><a href="CalculateArea.html">Area of Triangle</a></li>
+            <ul class="nav-item">
+                <li><a href="#" class="active">Is Triangle?</a></li>
+                <li><a href="Quiz.html">Quiz</a></li>
+                <li><a href="CalculateHypotenuse.html">Hypotenuse</a></li>
+                <li><a href="CalculateArea.html">Area of Triangle</a></li>
+
+            </ul>
         </nav>
     </div>
-    <div class="body">
+    <div class="main">
         
-        <h1>Is this a Triangle? Let's find out!</h1>
-        <label for="angle1">Angle 1</label>
-        <input type="number" class="angle" class="inputbox" placeholder="Enter Angle">
-        <label for="angle2">Angle 2</label>
-        <input type="number" class="angle" class="inputbox" placeholder="Enter Angle">
-        <label for="angle3">Angle 3</label>
-        <input type="number" class="angle" class="inputbox" placeholder="Enter Angle">
-        <button id="btn-is-triangle">Triangle?</button>
+        <h2>Is this a Triangle? Let's find out!</h2>
+        <label for="angle1">Angle 1
+        <input type="number" class="angle inputbox" placeholder="Enter Angle"></label>
+        <label for="angle2">Angle 2
+        <input type="number" class="angle inputbox" placeholder="Enter Angle"></label>
+        <label for="angle3">Angle 3
+        <input type="number" class="angle inputbox" placeholder="Enter Angle"></label>
+        <button id="btn-is-triangle" class="btn">Triangle?</button>
         <div id="result-is-triangle" class="result">See the Result</div>
         
     </div>
-    
+    <footer>
+        <p>&copy; Maitreyee Nath</p>
+        <ul>
+            <li class="social-icon"><a href="https://twitter.com/maitreyee__nath" target="__blank"><i class="fa fa-twitter"></i></a></li>
+                <li class="social-icon"><a href="https://github.com/mnath30" target="__blank"><i class="fa fa-github"></i></a></li>
+                <li class="social-icon"><a href="https://www.linkedin.com/in/maitreyee-nath-211096127?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BZcCecq5VS%2BKX4%2FTk0FLFKw%3D%3D" target="__blank"><i class="fa fa-linkedin"></i></a></li>
+        </ul>
+    </footer>
+    <script src="isTriangle.js"></script>
 </body>
-<script src="isTriangle.js"></script>
+
 </html>
