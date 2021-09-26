@@ -17,15 +17,19 @@
         </nav>
     </div>
     <div class="body">
-        <h3>Enter Height</h3>
-        <input type="number">
-        <h3>Enter Base</h3>
-        <input type="number">
-        <button>Calculate Area</button>
+        <label for="area-base">Enter Base
+        <input type="number" class="area-input inputbox" placeholder="Enter Base">
+        </label>
+        <label for="area-height">Enter Height
+        <input type="number" class="area-input inputbox" placeholder="Enter Height">
+        </label>
+        <button id="btn-area" class="btn">Calculate Area</button>
+        <div class="result" id="area-result">Area of triangle will be displayed here</div>
         <div>
             <i>Area of triangle is calculated by using the formula: (Base x Height) / 2 </i>
         </div>
     </div>
+    <script src="./area.js"></script>
     
 </body>
 </html>
